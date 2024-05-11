@@ -26,7 +26,8 @@ This program must be run in a directory with a folder named 'Sessions' containin
   - avutil
   - swresample
   - swscale
-- winpthread 
+- iconv (https://www.gnu.org/software/libiconv/)
+- winpthread
   
 # Info 
 - Compiled with mingw-64 from w64devkit (I suggest you use the same)
