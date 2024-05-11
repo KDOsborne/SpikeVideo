@@ -18,4 +18,4 @@
 # Missing Features
 - Only supports neuronexus Smartbox recordings with two 64 channel probes. You should update this to be configurable. Will need to support more than just float32 data and more than just 64 channel probes.
 - Does not support drawing Picto polygons or Picto fractals. You can find the fractal algorithm in the leelab picto code (not on github). Time to brush up on your OpenGL :)
-- Only supports 30000Hz neural data. The frame rate and audio rate need to be chosen very carefully so that the audio and video of the recorded mp4s will line up. The way things are, with a frame rate of 62.5, an audio rate of 64000, and data sampled at 30000Hz, everything lines up great. If any of these values change, things will not be pretty :)
+- Only supports 30000Hz neural data. The frame rate and audio rate need to be chosen very carefully so that the audio and video of the generated mp4s will line up. The way things are, with a frame rate of 62.5, an audio rate of 64000, and data sampled at 30000Hz, everything lines up great. If any of these values change, things will not be pretty :)
