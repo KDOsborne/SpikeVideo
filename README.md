@@ -1,7 +1,8 @@
 # SpikeVideo
 
 # Session folder structure
-- Session A
+This program must be run in a directory with a folder named 'Sessions' containing all session folders. The subfolders of 'Sessions' should look as follows:
+- Session
   - **Alignment Info** (*.txt*)
     - This should be the alignmentinfo_README that is generated during the spike sorting pipeline.
   - **Neural Data** (*.xdat*)
