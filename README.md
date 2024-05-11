@@ -13,7 +13,17 @@ This program must be run in a directory with a folder named 'Sessions' containin
   - **Settings File** (*.ini*)
     - Currently not being used. You can utilize this to load in some settings so the user can modify things without needing to recompile.
 
-# ffmpeg 
+# Dependencies
+- sqlite (https://www.sqlite.org/)
+- zlib (https://www.zlib.net/)
+- base64 (https://github.com/libb64/libb64)
+- bass (https://www.un4seen.com/)
+- ffmpeg (https://ffmpeg.org/)
+  - All of the libraries
+- winpthread 
+  
+# Info 
+- Compiled with mingw-64 from w64devkit (I suggest you use the same)
 - The lib folder is missing avcodec-60.dll because it's too large. The ffmpeg libs were all compiled on my computer, so you may have to build ffmpeg on your computer and replace these dlls so you can compile SpikeVideo on your system.
 
 # Missing Features
