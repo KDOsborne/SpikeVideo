@@ -19,7 +19,13 @@ This program must be run in a directory with a folder named 'Sessions' containin
 - base64 (https://github.com/libb64/libb64)
 - bass (https://www.un4seen.com/)
 - ffmpeg (https://ffmpeg.org/)
-  - All of the libraries
+  - avcodec
+  - avdevice
+  - avfilter
+  - avformat
+  - avutil
+  - swresample
+  - swscale
 - winpthread 
   
 # Info 
