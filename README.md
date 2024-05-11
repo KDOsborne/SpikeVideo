@@ -1,6 +1,6 @@
 # SpikeVideo
 
-# Session folder structure:
+# Session folder structure
 - Session A
   - Alignment Info (.txt) This should be the alignmentinfo_README that is generated during the spike sorting pipeline.
   - Neural Data (.xdat) Right now only supports 128ch Smartbox recordings.
@@ -8,7 +8,7 @@
   - Behavioral File (.bhv) This should be a list of all trials, their game number, and their timestamp. An example file is in examples/games.bhv
   - Settings File (.ini) Currently not being used. You can utilize this to load in some settings so the user can modify things without needing to recompile.
 
-# Housekeeping
+# ffmpeg 
 - The lib folder is missing avcodec-60.dll because it's too large. The ffmpeg libs were all compiled on my computer, so you may have to build ffmpeg on your computer and replace these dlls so you can compile SpikeVideo on your system.
 
 # Missing Features
